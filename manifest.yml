@@ -1,0 +1,8 @@
+---
+applications:
+- name: aamp_api
+  memory: 512M
+  instances: 1
+  version: 1.0.0  
+  host: aamp-api-1-0-0
+  
