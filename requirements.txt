@@ -1,2 +1,3 @@
 Flask
 dicttoxml
+requests==2.21.0

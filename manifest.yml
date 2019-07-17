@@ -1,8 +1,28 @@
 ---
 applications:
-- name: aamp_api
+- name: aamp-api-v1
   memory: 512M
   instances: 1
   version: 1.0.0  
-  host: aamp-api-1-0-0
-  
+  env:
+    version: v1
+    MMSURL : https://aamp-api.iii-cflab.com/mms_DSUS
+    MMSMETHOD : post
+    
+- name: aamp-api-v2
+  memory: 512M
+  instances: 1
+  version: 1.0.0  
+  env:
+    version: v2
+    MMSURL : https://aamp-api.iii-cflab.com/mms_DSUS
+    MMSMETHOD : post
+    
+- name: aamp-api
+  memory: 512M
+  instances: 1
+  version: 1.0.0  
+  env:
+    version: v2
+    MMSURL : https://aamp-api.iii-cflab.com/mms_DSUS
+    MMSMETHOD : post
