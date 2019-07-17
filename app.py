@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from flask import Flask, request, jsonify, Response
 from WebRequestManager import WebRequestManager as webmgr
 import requests
