@@ -6,7 +6,7 @@ applications:
   version: 1.0.0  
   env:
     version: v1
-    MMSURL : https://aamp-api.iii-cflab.com/mms_DSUS
+    MMSURL : https://api.eipaas-aamp.taoyuan-airport.com/mms_DSUS
     MMSMETHOD : post
     
 - name: aamp-api-v2
@@ -15,7 +15,7 @@ applications:
   version: 1.0.0  
   env:
     version: v2
-    MMSURL : https://aamp-api.iii-cflab.com/mms_DSUS
+    MMSURL : https://api.eipaas-aamp.taoyuan-airport.com/mms_DSUS
     MMSMETHOD : post
     
 - name: aamp-api
@@ -24,5 +24,5 @@ applications:
   version: 1.0.0  
   env:
     version: v2
-    MMSURL : https://aamp-api.iii-cflab.com/mms_DSUS
+    MMSURL : https://api.eipaas-aamp.taoyuan-airport.com/mms_DSUS
     MMSMETHOD : post
